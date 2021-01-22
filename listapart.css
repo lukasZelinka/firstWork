@@ -1,0 +1,493 @@
+
+body {
+  margin: 0 auto;
+  background: white;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Libre Franklin", sans-serif;
+  letter-spacing: -0, 5px;
+}
+h2 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+}
+.logo {
+  width: 960px;
+  margin: -12px auto;
+}
+.main-nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  border-bottom: 1px solid #f2f2f2;
+  background: #ffffffeb;
+}
+.main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.main-nav ul li:first-child {
+  margin-left: 100px;
+}
+
+.main-nav li {
+  padding: 3px;
+  display: inline-block;
+}
+.main-nav li:hover {
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.main-nav a {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+.banner {
+  box-sizing: border-box;
+  display: block;
+  width: 180px;
+  height: 180px;
+  background: #ffffffeb;
+  border: 1px solid #ffffffeb;
+  border-radius: 6px;
+  font-size: 11px;
+  line-height: 18px;
+  padding: 4px;
+  text-align: center;
+  box-shadow: -1px 6px 29px -9px grey;
+  position: absolute;
+  top: 79px;
+  right: 56px;
+}
+.banner h5 {
+  background: #4f2b84;
+  color: white;
+  font: 14px/21px "Libre Franklin", sans-serif;
+  padding: 9px;
+  margin: 7px 5px;
+  border: 1px solid #4f2b84;
+  border-radius: 4px;
+}
+.banner p {
+  color: #666;
+  background: transparent;
+}
+.banner a:active {
+  text-decoration: none;
+}
+.banner h5:hover {
+  text-decoration: underline;
+}
+.banner a {
+  text-decoration: none;
+}
+.meta-data {
+  text-align: center;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 85px;
+}
+.meta-info {
+  text-transform: uppercase;
+  color: #fff;
+  padding: 4px;
+  border-radius: 3px;
+  background-color: #bb3825;
+}
+.meta-time {
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-left: 4px;
+}
+.title {
+  text-align: center;
+}
+.title a {
+  text-decoration: none;
+  color: #000;
+}
+.title-author {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+}
+.title-author a:hover {
+  text-decoration: underline;
+}
+.title-author a {
+  text-decoration: none;
+  color: #2455c3;
+}
+.title-meta {
+  text-align: center;
+  margin-top: -22px;
+}
+.content {
+  max-width: 960px;
+  margin: auto;
+}
+.content p {
+  color: #222;
+  text-align: left;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.velky-clanok {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 0;
+  margin-right: 0;
+  border: 1px solid #f0f0f0;
+  border-radius: 4px;
+  position: relative;
+}
+.velky-clanok-nadpis {
+  text-align: center;
+  font-weight: 400;
+  width: 100%;
+}
+.clanky-flex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 738px;
+}
+.clanok-wrap {
+  flex: 1 1 30%;
+  margin: 0 24px 24px 0;
+  width: 30%;
+}
+.clanok-nadpis {
+  font: 800 18px/1.3 "Libre Franklin", sans-serif;
+  margin: 0;
+}
+.clanok-nadpis a {
+  text-decoration: none;
+  color: #000;
+}
+.clanok-nadpis a:hover {
+  text-decoration: underline;
+}
+.clanok-nadpis a:visited {
+  text-decoration: none;
+  color: #000;
+}
+.clanok-byline {
+  font: 14px/1.2 "Libre Franklin", sans-serif;
+  margin: 7px 0 6px 0;
+}
+.clanok-byline-author a {
+  text-decoration: none;
+  font-weight: 800;
+  color: #2455c3;
+}
+.clanok-obsah {
+  margin: 0;
+  padding: 0;
+}
+.clanok-obsah p {
+  margin: 0;
+  padding: 0;
+  font: 13px/24px Georgia, "Times New Roman", Times, serif;
+}
+.clanok-footer {
+  color: #666666;
+  font: 12px/20px "Libre Franklin", sans-serif;
+}
+.clanok-footer-kariera a {
+  text-decoration: none;
+}
+.clanok-footer-kariera a:hover {
+  text-decoration: underline;
+}
+.clanok-footer-kariera::after {
+  content: " · ";
+  font-weight: bold;
+  margin-top: 2px;
+  margin-right: 1px;
+}
+.trio {
+  width: 216px;
+  display: flex;
+  flex-direction: column;
+}
+.banner-1 {
+  box-sizing: border-box;
+  flex: 1 1 190px;
+  width: 185px;
+  background: #ffffffeb;
+  border: 1px solid #ffffffeb;
+  border-radius: 2px;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "Libre Franklin", sans-serif;
+  padding: 4px;
+  text-align: center;
+  border: 1px solid lightgrey;
+  margin-bottom: 25px;
+}
+.banner-1 h5 {
+  background: #4f2b84;
+  color: white;
+  font: 14px/21px "Libre Franklin", sans-serif;
+  padding: 9px;
+  margin: 7px 5px;
+  border: 1px solid #4f2b84;
+  border-radius: 4px;
+}
+.banner-1 p {
+  color: #666;
+  background: transparent;
+}
+.banner-1 a:active {
+  text-decoration: none;
+}
+.banner-1 h5:hover {
+  text-decoration: underline;
+}
+.banner-1 a {
+  text-decoration: none;
+}
+.banner-1.alla-banner {
+  padding-top: 18px;
+  background-color: #f0f0f0;
+}
+.pre-footer p {
+  background-color: #f0f0f0;
+  border-radius: 6px;
+  font: normal 12px/22px "Libre Franklin", sans-serif;
+  padding: 21px 92px;
+  margin: 30px auto;
+  text-align: center;
+  width: 960px;
+  box-sizing: border-box;
+}
+.pre-footer p > a {
+  text-decoration: none;
+  color: #2455c3;
+}
+.pre-footer p > a:hover {
+  text-decoration: underline;
+  color: #2455c3;
+}
+
+/* FOOTER SECTION 1 */
+.footer-section-1 {
+  background-color: #eaeaea;
+  width: 100%;
+  height: 70px;
+}
+.container-section-1 {
+  width: 960px;
+  margin: auto;
+  display: flex;
+}
+.container-section-1-left {
+  flex: 1 1 66%;
+}
+.container-section-1-left ul {
+  padding: 0;
+  margin: 0;
+}
+.container-section-1-left li {
+  display: inline-block;
+  margin: 8px 16px 12px 11px;
+}
+.container-section-1-left a {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+}
+.container-section-1-left li a:hover {
+  text-decoration: underline;
+}
+.container-section-1-right {
+  flex: 1 1 33%;
+}
+.container-section-1-right ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 8px 0 0 0;
+}
+.container-section-1-right li {
+  font: bold 13px/20px "Libre Franklin", sans-serif;
+  display: inline-block;
+  margin-bottom: 0px;
+}
+.container-section-1-right li:first-child {
+  font-weight: normal;
+}
+.container-section-1-right a {
+  text-decoration: none;
+  color: black;
+}
+.container-section-1-right a:hover {
+  text-decoration: underline;
+  color: black;
+}
+.container-section-1-right a:before {
+  content: " · ";
+}
+a.no-dot:before {
+  content: " ";
+}
+/* FOOTER SECTION 2 */
+
+.footer-section-2 {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 120px;
+}
+.fs2-container {
+  width: 960px;
+  display: flex;
+  margin: auto;
+}
+.fs2c-left {
+  flex: 1 50%;
+  height: 120px;
+}
+.fs2c-left a {
+  text-decoration: none;
+  font: normal 10px/7px "Libre Franklin", sans-serif;
+  color: #000;
+}
+.fs2c-left img {
+  margin-top: 15px;
+}
+.promo {
+  float: right;
+  margin-top: 6px;
+  margin-left: 15px;
+  margin-right: 119px;
+}
+.promo-header {
+  font-weight: bold;
+}
+.arrow {
+  margin-top: -11px;
+}
+.arrow a {
+  text-decoration: none;
+  font-weight: 800;
+  color: #2455c3;
+}
+.arrow:after {
+  content: " › ";
+  color: #2455c3;
+  font-size: 12px;
+  font-weight: bold;
+}
+.fs2c-right {
+  flex: 1 50%;
+  height: 120px;
+}
+.fs2c-right a {
+  text-decoration: none;
+  font: normal 10px/7px "Libre Franklin", sans-serif;
+  color: #000;
+}
+.fs2c-right img {
+  margin-top: 15px;
+}
+.promo-r {
+  float: right;
+  margin-top: 8px;
+  margin-left: 14px;
+  margin-right: 6px;
+}
+.promo-header-r {
+  font-weight: bold;
+}
+.arrow-r {
+  margin-top: -11px;
+}
+.arrow-r a {
+  text-decoration: none;
+  font-weight: 800;
+  color: #2455c3;
+}
+.arrow-r:after {
+  content: " › ";
+  color: #2455c3;
+  font-size: 12px;
+  font-weight: bold;
+}
+/* FOOTER SECTION 3 */
+.footer-section-3 {
+  background-color: #e8e8e8;
+  width: 100%;
+  height: 195px;
+  position:relative;
+}
+.fs3-container {
+  width: 960px;
+  margin: auto;
+}
+.site-info {
+  font: normal 12px/18px "Libre Franklin", sans-serif;
+  padding-top: 60px;
+  margin-left: -18px;
+}
+.site-info a {
+  text-decoration: none;
+  color: #000;
+}
+.fs3-nav {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+}
+.fs3-nav-flex-l {
+  flex: 1 50%;
+  font: bold 12px/20px "Libre Franklin", sans-serif;
+}
+
+.fs3-nav-flex-l li {
+  display: inline-block;
+}
+.fs3-nav-flex-l li:after {
+  content: " · ";
+  padding: 3px 4px 3px 3px;
+}
+li.fbw:after {
+  content: " ";
+}
+.fs3-nav-flex-l a {
+  text-decoration: none;
+  color: #000;
+}
+.fs3-nav-flex-l a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+.fs3-nav-flex-r {
+    flex: 1 0px;
+    position: relative;
+    left: 108px;
+    bottom: 47px;
+}
+img.last {
+  position: absolute;
+  left: 153px;
+  bottom: 0;
+}
